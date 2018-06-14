@@ -1,48 +1,57 @@
-<!DOCTYPE html>
-<!-- Created with iSpring --><!-- 792 634 --><!--version 8.7.0.25091 --><!--type html --><!--mainFolder ./ -->
-<html style=background-color:#c0c0c0;>
+<!doctype html>
+<html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/><meta name="format-detection" content="telephone=no"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="msapplication-tap-highlight" content="no"/><title>Story of Buddha html5</title><link rel="apple-touch-icon-precomposed" href="data/apple-touch-icon.png"/><link rel="shortcut icon" type="image/ico" href="data/favicon.ico"/><style>body {background-color:#c0c0c0;}#spr0_11cadd {display:none;}</style>
+  <meta charset="utf-8">
+  <title>storyofbuddha</title>
 
-    <style>
-		#playerView {
-			position:relative;
-			-webkit-tap-highlight-color:rgba(0,0,0,0);
-			-webkit-user-select:none;
-			-moz-user-select:none;
-			-webkit-touch-callout:none;
-			-webkit-user-drag:none;
-		}
-		#playerView * {
-			position:absolute;
-		}
-    </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+
+  <meta name="ad.size" content="width=550,height=400">
+  <script>
+    var clickTag = "http://www.fla-exporter.com";
+  </script>
+
+  <style>
+    #content {
+      background: #FFFFFF;
+      max-width: 550px;
+      max-height: 400px;
+      width: 100%;
+      height: 100%;
+    }
+
+    html, body {
+      background: #444444;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+
+      display: flex;
+      display: -webkit-flex;
+      align-items: center;
+      -webkit-align-items: center;
+      justify-content: center;
+      -webkit-justify-content: center;
+    }
+
+    /* A tiny animation to show during the initial script load. */
+    #spinner {
+      background: url(spinner.gif);
+      position: absolute;
+      left: 50%; top: 50%;
+      width: 32px; height: 32px;
+      margin-left: -16px; margin-top: -16px;
+    }
+  </style>
 </head>
 <body>
-	<div id="preloader"></div>
-	<script src="data/player.js?D08C868F"></script>
-    <div id="content"></div>
-    <div id='link' style='position: absolute; text-align: center; width: 100%;'><a rel='nofollow' target='_blank' style='font-family: verdana; font-size: 11px; color: #0000CC;' href='https://www.ispringsolutions.com/ispring-free' title='Free e-Learning authoring tool'>Created with iSpring e-Learning software</a></div><div id="spr0_11cadd"></div>
-    <script>
-		if (!ispring.compatibility.performRedirectIfNeeded("data/html5-unsupported.html"))
-		{
-			(function(startup){
-				function start(savedPresentationState)
-				{
-					var presInfo = "eNrdl0GPojAUgP/KpGfAtrQU2NM4O86amNWMZi+jMayUlR0GCKBmY/jvU4ruiFS844HC82v7+lH0cQQhcMGRIkKY7SCdmOaTTmyT6EPHfNSfhyOGn/CQfh/REmigELBoDsBlDtbAFrjUIRrYiPAmyfg8zdYIWZQhJqh0D1wMkamBXTVJmAcZ52vbYAZcYwod9E1AHLhHEFeH9+ogLotsxzXgAfdNfgHSVGC5vBSIieV0gRflXIblWbkqtZqO8wZNuum0SZt3xi4uaXSHTrvpaplfcNBMxJJwbaI9ctSEaTe8v4Tt7pxzVRq3aa7I4zYdNGjnDv27QbNuer9r0HdWufcvaQK76aKRN4Nq2wIHH40dXD0rOShFPK3i3jkeXe8CDWQC9UApd/0RBOdRy/O8p8duLBpsOXU6wPcKbznIo9DnyPhb3bjNdXQj76f/f0IxNdS+MuFycJEdNCBE8gtiMOIwQhG2CWWYYa4jVK606mdCruFtdVpnnZl/6gzrDzn1rp/f2kooz0TOcoh866U8P4Xm9Xi/6ubfqXmv26BuDkkNX1mw2xaw0gLuswWrbcFUWjD7bIG1LRClBdJnC2bbAlVaoH22QNoWLKUFq88WaNsCU1pgPbZAFf8RttKC3ee9gNsWHKUFp88WkKJqguqyCfbZA1R4uFE+9rl+pKoqWl1Aol5VkCsp4Ahmw/V4Pnsd/3xZT6Yv0/WP1+eRWPe2KFJ3OVgODoeDEeZpFsZ/8iTaFWES58Ym+VgOhInrzovpdLIYz6qX/Lns8sD1CfeyuDqdJ0Fx8DL+4MX+w+Ou2CaSWCRJVL0efQJW04Xu";
-					PresentationPlayer.start(presInfo, "content", "playerView", onPlayerInit, savedPresentationState);
-					function onPlayerInit(player)
-					{
-						(player);
-					}
-				}
-		
-				if (startup)
-					startup(start);
-				else
-					start();
-			})();
-		};
-    </script>
+
+<div id="content">
+  <span id="spinner"></span>
+</div>
+
+<script src="https://2dkit.s3-us-west-2.amazonaws.com/2dkit-anim-1.0.js"></script>
+<script src="animation/library.js"></script>
+
 </body>
 </html>
